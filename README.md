@@ -7,7 +7,7 @@ Make sure to modify these .env files to point to mongodb server address.
 Finally install npm packages.
 `npm install`
 
-### Running in Docker
+## Running in Docker
 `docker-compose up --build`
 this will build two containers, one for nore and another for mongodb. The mongodb can be accessed from the node container by the server name **mongo** for example *mongodb://mongo:27017/docker-node-mongo*
 
